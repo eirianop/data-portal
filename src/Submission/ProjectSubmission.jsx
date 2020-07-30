@@ -12,7 +12,7 @@ import { userHasMethodOnProject, isRootUrl, isProgramUrl, userHasSheepdogProgram
 class ProjectSubmission extends React.Component {
   componentDidMount() {
     this.props.fetchPrograms();
-  }
+  } 
 
   componentDidUpdate() {
     if (this.props.programList && !this.shouldDisplayProjectUIComponents(
